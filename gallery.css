@@ -1,0 +1,39 @@
+.container{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 6%;
+}
+
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.images{
+    padding: 0px 20px 20px;
+}
+
+img:hover{
+    transform: scale(1.5);
+}
+
+hr{
+    height: 1.5mm;
+    width: 50%;
+    margin-bottom: 4%;
+}
+
+footer{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    background-color: black;
+    color: cornsilk;
+}
